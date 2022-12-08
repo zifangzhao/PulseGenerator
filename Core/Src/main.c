@@ -256,7 +256,7 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(STIM_GPIO_Port, STIM_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pins : ANALOG1_Pin STIM_Pin */
   GPIO_InitStruct.Pin = ANALOG1_Pin|STIM_Pin;
